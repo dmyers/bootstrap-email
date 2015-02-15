@@ -1,0 +1,52 @@
+/* -------------------------------------
+    CONTAINER
+------------------------------------- */
+.container {
+  display: block !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  /* makes it centered */
+  clear: both !important;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+/* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+.main {
+  background-color: @main-bg;
+  border: 1px solid @main-border;
+  border-radius: @main-border-radius;
+}
+
+.content-wrap {
+  padding: 20px;
+}
+
+.content-block {
+  padding: 0 0 20px;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  clear: both;
+  color: @footer-text-color;
+  padding: 20px;
+}
+.footer a {
+  color: @footer-link-color;
+}
+.footer p, .footer a, .footer unsubscribe, .footer td {
+  font-size: @footer-font-size;
+}
