@@ -1,6 +1,11 @@
 @body-bg: #f6f6f6;
 
-@link-color: #348eda;
+@brand-primary: #348eda;
+@brand-success: #68B90F;
+@brand-warning: #FF9F00;
+@brand-danger: #D0021B;
+
+@link-color: @brand-primary;
 
 @line-height: 1.6em;
 
@@ -29,19 +34,19 @@
 
 @btn-border-radius: 5px;
 
-@btn-primary-bg: #348eda;
+@btn-primary-bg: @brand-primary;
 @btn-primary-color: #FFF;
 
-@btn-success-bg: #68B90F;
+@btn-success-bg: @brand-success;
 @btn-success-color: #FFF;
 
-@btn-warning-bg: #FF9F00;
+@btn-warning-bg: @brand-warning;
 @btn-warning-color: #FFF;
 
-@btn-danger-bg: #D0021B;
+@btn-danger-bg: @brand-danger;
 @btn-danger-color: #FFF;
 
-@alert-info-bg: #348eda;
-@alert-warning-bg: #FF9F00;
-@alert-danger-bg: #D0021B;
-@alert-success-bg: #68B90F;
+@alert-info-bg: @brand-primary;
+@alert-warning-bg: @brand-warning;
+@alert-danger-bg: @brand-danger;
+@alert-success-bg: @brand-success;
