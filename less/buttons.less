@@ -1,11 +1,9 @@
 /* -------------------------------------
     BUTTONS
 ------------------------------------- */
-.btn-primary {
+.btn {
+  border: solid #fff;
   text-decoration: none;
-  color: @btn-primary-color;
-  background-color: @btn-primary-bg;
-  border: solid @btn-primary-bg;
   border-width: 10px 20px;
   line-height: 2em;
   font-weight: @btn-font-weight;
@@ -13,4 +11,10 @@
   cursor: pointer;
   display: inline-block;
   border-radius: @btn-border-radius;
+  
+  &.btn-primary {
+    color: @btn-primary-color;
+    background-color: @btn-primary-bg;
+    border-color: @btn-primary-bg;
+  }
 }
